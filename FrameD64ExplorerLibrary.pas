@@ -7,7 +7,7 @@ interface
 
 uses
     Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls,
-    IniFiles, D64ExplorerTypes, FrameD64ExplorerTask, VirtualTrees;
+    IniFiles, D64ExplorerTypes, FrameD64ExplorerTask, laz.VirtualTrees;
 
 type
 
@@ -19,7 +19,7 @@ type
         Panel1: TPanel;
         Panel2: TPanel;
 		Panel3: TPanel;
-        VirtualStringTree1: TVirtualStringTree;
+        VirtualStringTree1: TLazVirtualStringTree;
 		procedure PaintBox1Paint(Sender: TObject);
         procedure VirtualStringTree1DblClick(Sender: TObject);
         procedure VirtualStringTree1GetImageIndex(Sender: TBaseVirtualTree;

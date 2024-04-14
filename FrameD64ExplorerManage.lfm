@@ -313,7 +313,7 @@ inherited D64ExplorerManageFrame: TD64ExplorerManageFrame
     DoubleBuffered = True
     ParentDoubleBuffered = False
     TabOrder = 1
-    object VirtualDrawTree1: TVirtualDrawTree
+    object VirtualDrawTree1: TLazVirtualDrawTree
       Cursor = 63
       Left = 256
       Height = 437
@@ -376,7 +376,7 @@ inherited D64ExplorerManageFrame: TD64ExplorerManageFrame
       OnDrawNode = VirtualDrawTree1DrawNode
       OnHeaderDrawQueryElements = VirtualDrawTree1HeaderDrawQueryElements
     end
-    object VirtualStringTree1: TVirtualStringTree
+    object VirtualStringTree1: TLazVirtualStringTree
       Left = 8
       Height = 437
       Top = 0

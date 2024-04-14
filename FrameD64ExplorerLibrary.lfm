@@ -25,7 +25,7 @@ inherited D64ExplorerLibraryFrame: TD64ExplorerLibraryFrame
     ClientHeight = 256
     ClientWidth = 664
     TabOrder = 1
-    object VirtualStringTree1: TVirtualStringTree
+    object VirtualStringTree1: TLazVirtualStringTree
       Left = 8
       Height = 240
       Top = 8

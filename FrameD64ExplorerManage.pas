@@ -7,7 +7,7 @@ interface
 
 uses
     Classes, SysUtils, Graphics, Forms, Controls, ExtCtrls, Menus, ActnList,
-    Buttons, IniFiles, VirtualTrees, C64D64Image, D64ExplorerTypes,
+    Buttons, IniFiles, laz.VirtualTrees, C64D64Image, D64ExplorerTypes,
 	FrameD64ExplorerTask;
 
 type
@@ -74,8 +74,8 @@ type
         SpeedButton8: TSpeedButton;
 		SpeedButton9: TSpeedButton;
         Splitter1: TSplitter;
-        VirtualDrawTree1: TVirtualDrawTree;
-        VirtualStringTree1: TVirtualStringTree;
+        VirtualDrawTree1: TLazVirtualDrawTree;
+        VirtualStringTree1: TLazVirtualStringTree;
 		procedure ActionList1Update(AAction: TBasicAction; var Handled: Boolean
 			);
         procedure ActManageAllPrgExecute(Sender: TObject);
